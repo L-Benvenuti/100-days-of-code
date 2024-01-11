@@ -1,0 +1,42 @@
+:root {
+    --main-color: rgb(83, 75, 75);
+    --secondary-color: rgb(170, 96, 83);
+    --terciary-color: rgb(167, 1, 78);
+    --title-fonts: 'Oswald', sans-serif;
+    --text-fonts: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(233, 215, 207);
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+h1 {
+    color: var(--main-color);
+    font-weight: 800;
+    font-family: var(--title-fonts);
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: 52px;
+}
+
+p, a {
+    font-family: var(--text-fonts);
+}
+
+a {
+    text-decoration: none;
+    color: var(--terciary-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
