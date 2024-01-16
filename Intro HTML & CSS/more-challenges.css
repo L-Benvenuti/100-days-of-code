@@ -1,0 +1,57 @@
+header {
+    margin-bottom: 64px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+header p {
+    margin: 12px 0;
+}
+
+a {
+    display: inline-block;
+    margin: 0;
+    background-color: var(--terciary-color);
+    border-radius: 4px;
+    padding: 12px 48px;
+    color: white;
+    font-size: 24px;
+}
+
+a:hover {
+    background-color: rgb(180, 12, 90);
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 36px auto 0 auto;
+    width: 500px;
+}
+
+li {
+    margin: 32px;
+    padding: 16px;
+    background-color: var(--highlight-color);
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-goal {
+    background-color: var(--stronger-highlight-color);
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: var(--title-fonts);
+    color: var(--secondary-color);
+    font-weight: 800;
+}
+
+li p {
+    margin: 12px;
+    color: rgb(66, 2, 2);
+}
